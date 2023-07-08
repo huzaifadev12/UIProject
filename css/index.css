@@ -363,6 +363,7 @@ span {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.1px;
+    cursor: pointer;
 }
 
 .order-btn {
@@ -388,10 +389,13 @@ span {
     background: var(--primary, #FFF);
     color: var(--light-text, #2091F9);
     border: 1px solid black;
-    
 }
-
-
+.super .std:hover
+{
+    background: var(--primary, #D1D1D1);
+    color: var(--light-text, #FFF);
+    border: 1px solid black;
+}
 
 .service-section {
     display: flex;
@@ -631,7 +635,7 @@ hr {
     text-decoration: none;
 }
 
-.review-sec button {
+.review-sec .more-rev-btn {
     color: var(--light-text, #FFF);
 
     /* H3 */
@@ -639,7 +643,7 @@ hr {
     font-size: 2vw;
     padding: 1vw 2.8vw;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0.1px;
 
@@ -647,6 +651,11 @@ hr {
     border: none;
     background: var(--primary, #2091F9);
 
+}
+.more-rev-btn:hover{
+    background: var(--primary, #FFF);
+    color: var(--light-text, #2091F9);
+    border: 1px solid black;
 }
 
 .detail {
@@ -712,11 +721,16 @@ hr {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.2px;
-cursor: pointer;
+    cursor: pointer;
     padding: 14px 31px;
     border-radius: 10px;
     border: none;
     background-color: #2091F9;
+}
+.btn-div .buy-now:hover{
+    background: var(--primary, #FFF);
+    color: var(--light-text, #2091F9);
+    border: 1px solid black;
 }
 
 .btn-div .try-free {
@@ -736,7 +750,11 @@ cursor: pointer;
     letter-spacing: 0.2px;
     background: transparent;
 }
-
+.btn-div .try-free:hover{
+    background: var(--primary, #FFF);
+    color: var(--light-text, #2091F9);
+    border: 1px solid black;
+}
 .nav-toggler {
     background-color: transparent;
     border: none;
